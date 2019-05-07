@@ -51,7 +51,7 @@ if (isset($_POST["submit"])) {
 	 
 	<div >
 		<form class="d-flex justify-content-lefr" action="index.php" method="post" enctype="multipart/form-data">
-			<input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
+			<input type="file" name="fileToUpload" accept=".jpeg,.jpg" required="">
 			<input type="submit" name="submit" value="Upload">
 		</form>
 	</div>
