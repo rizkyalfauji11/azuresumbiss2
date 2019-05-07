@@ -40,7 +40,7 @@ use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 $connectionString = "DefaultEndpointsProtocol=https;AccountName=dicodingwebap;AccountKey=H7gAdwkRBprKnCT74avSaoBQs+QbQJGGni0VSGSi7K4CTdcBjOPPQaAE/gzTNtcPgzn5wdUV083OeOjH64M2gA==;";
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
-$containerName = "imagesblob";
+$containerName = "blockblobsjlgpsa";
 //$fileToUpload = "HelloWorld.txt";
 if (isset($_POST["submit"])) {
     
