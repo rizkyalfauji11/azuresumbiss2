@@ -78,7 +78,7 @@ Enter the URL to an image, then click the <strong>Analyze image</strong> button.
 Image to analyze:
 <input type="text" name="inputImage" id="inputImage"
     value="<?php echo $url ?>" />
-<button onclick="processImage()">Analyze image</button>
+<button onclick="processImage()">Analyze Now</button>
 <br><br>
 <div id="wrapper" style="width:1020px; display:table;">
     <div id="jsonOutput" style="width:600px; display:table-cell;">
