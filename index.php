@@ -92,10 +92,11 @@ if (isset($_POST["submit"])) {
     <link href="starter-template.css" rel="stylesheet">
   </head>
   <body>
-	  <main role="main" class="container">
-		<div class="starter-template"> <br><br><br>
+	  <main role="main">
+		<div> 
+			<br><br><br>
 		</div>
-			<div class="mt-4 mb-2">
+			<div >
 						<form class="d-flex justify-content-lefr" action="index.php" method="post" enctype="multipart/form-data">
 							<input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
 							<input type="submit" name="submit" value="Upload">
@@ -103,12 +104,12 @@ if (isset($_POST["submit"])) {
 			</div>
 			<br>
 			<br>
-			<h4>File yang telah di upload</h4>
-			<table class='table table-hover'>
+			<h4>Uploaded Files</h4>
+			<table>
 				<thead>
 					<tr>
-						<th>File Name</th>
-						<th>File URL</th>
+						<th>Name</th>
+						<th>URL</th>
 						<th>Action</th>
 					</tr>
 				</thead>
@@ -132,7 +133,7 @@ if (isset($_POST["submit"])) {
 								<td>
 									<form action="mycomputervision.php" method="post">
 										<input type="hidden" name="url" value="<?php echo $blob->getUrl()?>">
-										<input type="submit" name="submit" value="Analyze!" class="btn btn-primary">
+										<input type="submit" name="submit" value="Do Analyze" >
 									</form>
 								</td>
 							</tr>

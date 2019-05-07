@@ -12,13 +12,7 @@ if (isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="https://submission2azure.azurewebsites.net/">Home</a>
-			</li>
-		</div>
-
+<a class="nav-link" href="https://webblobupload.azurewebsites.net/">Home</a>
     <title>Analyze Sample</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
