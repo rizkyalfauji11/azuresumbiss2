@@ -12,8 +12,7 @@ if (isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html>
 <head>
-<a class="nav-link" href="https://webblobupload.azurewebsites.net/">Home</a>
-    <title>Analyze Sample</title>
+    <title>Alfa Analyze</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
@@ -93,7 +92,7 @@ Image to analyze:
         <br><br>
         <img id="sourceImage" width="400" />
 		<br>
-		<h3 id="description">Loading description. . .</h3>
+		<h3 id="description">Click the button..</h3>
     </div>
 </div>
 </body>
